@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+}
+
+.nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+}
+
+.form input {
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #00f2ff;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.Safe { background: green; }
+.Moderate { background: orange; }
+.Dangerous { background: red; }
